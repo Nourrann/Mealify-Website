@@ -1,0 +1,151 @@
+@media screen and (max-width: 992px) {
+  /* navBar */
+  .navBar .menu {
+    display: block;
+  }
+  .navBar .navLinks {
+    display: none;
+  }
+  .navBar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .navBar .mode {
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+
+  /* header */
+  .headerSection .container {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+  .headerSection {
+    height: fit-content;
+  }
+  .headerSection .container > * {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* chefs */
+  .cards .singleCard {
+    /* 100% - elgap elly 3amlaha mn elnehyten / num of cards */
+    width: calc(calc(100% - 1.5rem * 2) / 2);
+  }
+  .cards {
+    align-items: center;
+    justify-content: center;
+  }
+  /* gallery */
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery .img:nth-child(5) {
+    grid-row-start: span 3;
+  }
+
+  /* footer */
+  footer .container .socialMedia,
+  footer .container .getInTouch {
+    width: calc(calc(100% - 1rem * 2) / 2);
+    order: 1;
+  }
+  footer .container .quickLinksSection {
+    width: 100%;
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  /* navBar */
+  .navBar .menu {
+    display: block;
+  }
+  .navBar .navLinks {
+    display: none;
+  }
+  .navBar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .navBar .mode {
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+
+  /* header */
+  .headerSection .container {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+  .headerSection {
+    height: fit-content;
+  }
+  .headerSection .container > * {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  /* contact */
+  .contact .info .emailUs,
+  .contact .info .address,
+  .contact .info .callUs,
+  .contact .info .openningHours {
+    width: calc(100% - 1rem);
+  }
+  /* chefs */
+  .cards .singleCard {
+    /* 100% - elgap elly 3amlaha mn elnehyten / num of cards */
+    width: calc(100% - 1.5rem * 2);
+  }
+  .cards {
+    align-items: center;
+    justify-content: center;
+  }
+  .gallery {
+    
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+
+  }
+   /* footer */
+   footer .container .socialMedia
+   {
+    width: 100%;
+    order: 1;
+  }
+  footer .container .getInTouch{
+    width: 100%;
+    order: 3;
+  }
+  footer .container .quickLinksSection {
+    width: 100%;
+    order: 2;
+  }
+ 
+}
+
+@media screen and (max-width: 600px) {
+  /* chefs */
+  .cards .singleCard {
+    /* 100% - elgap elly 3amlaha mn elnehyten / num of cards */
+    width: 100%;
+  }
+  .navBar .menu {
+    display: none;
+  }
+ 
+ 
+
+  
+}
